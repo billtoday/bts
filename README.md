@@ -23,6 +23,7 @@ to communicate with bill.today server from your own app there is a `billtoday` p
 ```json
 {
     "btId":"someInternalBtsId",
+    "btUserLink":"https://bill.today/someappdomain.com/someInternalBtsId",
     "userId":"userId",
     "userEmail":"mail@example.com",
     "status":"ok",
@@ -35,9 +36,10 @@ to communicate with bill.today server from your own app there is a `billtoday` p
 | key | description |
 |---|---|
 | btId | can be used to reference to an account in the bill today server instance |
+| btUserLink | just for convenience -> a ready to use link you can use to redirect your user to for fixing payment issues |
 | userId| this represents the id that is used by your app to organize accounts |
 | userEmail| contains email that the user used at sign up on bill.today |
-| status | health of billing account. Can be used to |
+| status | health of billing account. Can be used to show more detailed status information in your app |
 | statusMessage | more detailed text for status might be not ok |
 | subscribed | tells you if a plan is active |
 | subscribedUntil | tells you the left amount of time purchased |

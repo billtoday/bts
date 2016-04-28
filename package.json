@@ -1,0 +1,25 @@
+{
+  "name": "bts",
+  "version": "1.0.0",
+  "description": "bill today server",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "(npmts)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/billtoday/bts.git"
+  },
+  "keywords": [
+    "bill",
+    "payment",
+    "PayPal",
+    "Stripe"
+  ],
+  "author": "Lossless GmbH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/billtoday/bts/issues"
+  },
+  "homepage": "https://github.com/billtoday/bts#readme"
+}

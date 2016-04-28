@@ -3,10 +3,6 @@ bill.today server
 
 > NOTE: This package is not ready yet. Some things do NOT work atm! 
 
-## What is bill.today?
-bill.today allows your applications to focus on getting their job done, without having to worry about payment.  
-All your app does is running a simple check for the appId against the bill.today server and you get back a json object that tells you only what you need to now:
-
 ## Status
 [![Build Status](https://travis-ci.org/billtoday/bts.svg?branch=master)](https://travis-ci.org/billtoday/bts)
 

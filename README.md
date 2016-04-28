@@ -8,9 +8,11 @@ bill.today allows your applications to focus on getting their job done, without 
 All your app does is running a simple check for the appId against the bill.today server and you get back a json object that tells you only what you need to now:
 
 ## Status
+[![Build Status](https://travis-ci.org/billtoday/bts.svg?branch=master)](https://travis-ci.org/billtoday/bts)
 
 ## Usage
 
+### Installation
 Install the server:
 
 ```shell
@@ -18,7 +20,15 @@ npm install bts -g
 ```
 We recommend installing bts server globally since this seperates your config away from bts itself + is easy to update 
 
-to communicate with bill.today server from your own app there is a `billtoday` package on npm available.
+
+
+### API requests
+There is a `billtoday` package available on npm that handles requests and json parsing for you.
+In general an API request looks like this:  
+`GET /someappdomain.com/userId/`  
+Note: You have to specify your long lived bts access token in the header for authentication.
+
+The response will be a json string as body:
 
 ```json
 {

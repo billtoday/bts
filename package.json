@@ -1,6 +1,6 @@
 {
   "name": "bts",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "bill today server",
   "main": "dist/index.js",
   "scripts": {

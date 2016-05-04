@@ -23,11 +23,12 @@
   },
   "homepage": "https://github.com/billtoday/bts#readme",
   "dependencies": {
-    "beautylog": "^4.1.2",
+    "beautylog": "^4.1.4",
     "q": "^1.4.1",
-    "rx": "^4.1.0"
+    "rx": "^4.1.0",
+    "smartpdf": "0.0.0"
   },
   "devDependencies": {
-    "npmts": "^5.0.4"
+    "npmts": "^5.1.5"
   }
 }

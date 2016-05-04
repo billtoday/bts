@@ -1,6 +1,6 @@
 .idea/
 coverage/
-dist/
+docs/
 node_modules/
 ts/typings/
 ts/*.js

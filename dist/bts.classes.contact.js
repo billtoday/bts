@@ -1,0 +1,9 @@
+"use strict";
+var contact = (function () {
+    function contact() {
+    }
+    return contact;
+}());
+exports.contact = contact;
+
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImJ0cy5jbGFzc2VzLmNvbnRhY3QudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUlBO0lBQUE7SUFFQSxDQUFDO0lBQUQsY0FBQztBQUFELENBRkEsQUFFQyxJQUFBO0FBRlksZUFBTyxVQUVuQixDQUFBIiwiZmlsZSI6ImJ0cy5jbGFzc2VzLmNvbnRhY3QuanMiLCJzb3VyY2VzQ29udGVudCI6WyIvLy8gPHJlZmVyZW5jZSBwYXRoPVwiLi90eXBpbmdzL21haW4uZC50c1wiIC8+XG5pbXBvcnQgKiBhcyBwbHVnaW5zIGZyb20gXCIuL2J0cy5wbHVnaW5zXCI7XG5pbXBvcnQgKiBhcyBjbGFzc2VzIGZyb20gXCIuL2J0cy5jbGFzc2VzXCI7XG5cbmV4cG9ydCBjbGFzcyBjb250YWN0IHtcbiAgICBcbn0iXX0=

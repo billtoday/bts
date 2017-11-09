@@ -1,2 +1,3 @@
-export declare let camo: any;
-export import beautylog = require("beautylog");
+import * as beautylog from 'beautylog';
+import * as tsclass from 'tsclass';
+export { beautylog, tsclass };

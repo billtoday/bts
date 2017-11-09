@@ -3,6 +3,7 @@
   "version": "1.0.3",
   "description": "bill today server",
   "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "scripts": {
     "test": "(npmts)"
   },
@@ -23,12 +24,13 @@
   },
   "homepage": "https://github.com/billtoday/bts#readme",
   "dependencies": {
-    "beautylog": "^4.1.4",
-    "q": "^1.4.1",
-    "rx": "^4.1.0",
-    "smartpdf": "0.0.0"
+    "beautylog": "^6.1.10",
+    "smartpdf": "0.0.0",
+    "smartq": "^1.1.6",
+    "smartrx": "^1.0.5",
+    "tapbundle": "^1.1.8",
+    "tsclass": "^1.0.16",
+    "typings-global": "^1.0.23"
   },
-  "devDependencies": {
-    "npmts": "^5.1.5"
-  }
+  "devDependencies": {}
 }

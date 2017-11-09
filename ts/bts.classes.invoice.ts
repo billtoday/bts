@@ -1,20 +1,8 @@
-/// <reference path="./typings/main.d.ts" />
-import * as plugins from "./bts.plugins";
-import * as classes from "./bts.classes";
+import * as plugins from "./bts.plugins"
+import { IInvoice, TInvoiceStatus } from 'tsclass'
 
-export class Invoice {
-    id:number;
-    payment:classes.payment;
-    buyer:classes.contact;
-    seller:classes.contact;
-    vatId:string;
-    date:Date;
-    constructor(){
-        
-    };
-    get pdf(){
-        return invoicePdf(this);
-    }
+export class Invoice implements IInvoice {
+    status: TInvoiceStatus
 };
 
 let invoicePdf = function(invoiceArg:Invoice){

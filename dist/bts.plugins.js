@@ -1,6 +1,7 @@
 "use strict";
-/// <reference path="./typings/main.d.ts" />
-exports.camo = require("camo");
-exports.beautylog = require("beautylog");
-
-//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImJ0cy5wbHVnaW5zLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFBQSw0Q0FBNEM7QUFDakMsWUFBSSxHQUFHLE9BQU8sQ0FBQyxNQUFNLENBQUMsQ0FBQztBQUNwQixpQkFBUyxXQUFZLFdBQVcsQ0FBQyxDQUFDIiwiZmlsZSI6ImJ0cy5wbHVnaW5zLmpzIiwic291cmNlc0NvbnRlbnQiOlsiLy8vIDxyZWZlcmVuY2UgcGF0aD1cIi4vdHlwaW5ncy9tYWluLmQudHNcIiAvPlxuZXhwb3J0IGxldCBjYW1vID0gcmVxdWlyZShcImNhbW9cIik7XG5leHBvcnQgaW1wb3J0IGJlYXV0eWxvZyAgPSByZXF1aXJlKFwiYmVhdXR5bG9nXCIpOyJdfQ==
+Object.defineProperty(exports, "__esModule", { value: true });
+const beautylog = require("beautylog");
+exports.beautylog = beautylog;
+const tsclass = require("tsclass");
+exports.tsclass = tsclass;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYnRzLnBsdWdpbnMuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi90cy9idHMucGx1Z2lucy50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLHVDQUFzQztBQUlwQyw4QkFBUztBQUhYLG1DQUFrQztBQUloQywwQkFBTyJ9
